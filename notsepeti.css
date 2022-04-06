@@ -1,0 +1,80 @@
+
+body{
+    font-family: 'Anton', sans-serif;
+font-family: 'Permanent Marker', cursive;
+    
+    }
+ 
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+
+
+html {
+	background: url(abc.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.header, gorev-form{
+    min-height: 20%;
+    margin: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: wheat;
+    outline: none;
+
+}
+ 
+
+.btn-gorev-ekle{
+    
+    color:var(--accent-color);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.gorev-listesi{
+    list-style: none;
+    min-width: 10%;
+}
+
+
+.gorev-tamamlandi{
+    text-decoration:line-through ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
